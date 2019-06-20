@@ -1,0 +1,211 @@
+
+.clear-indents {
+    margin: 0;
+    padding: 0;
+}
+
+.email-wrapper .container {
+    max-width: 768px;
+}
+
+ /* -------- header -------- */
+
+.email-wrapper .header {
+    margin: 0;
+    padding: 29px 0 0 0;
+}
+
+.email-wrapper .header img {
+    display: block;
+}
+
+.email-wrapper .header .title-container {
+    padding:13px 0 0 27px;
+}
+
+.email-wrapper .header .title {
+    height: 29px;
+    color: #333333;
+    font-size: 24px;
+    font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+}
+
+.email-wrapper .header .subtitle {
+    height: 19px;
+    color: #bbbbbb;
+    font-size: 16px;
+    font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+}
+
+.email-wrapper .header-right {
+    padding-top: 21px;
+}
+
+.email-wrapper .header-right a {
+    width: 161px;
+    height: 16px;
+    color: #333333;
+    font-size: 13px;
+    font-family: HelveticaNeue-Medium, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    -webkit-text-size-adjust: none;
+}
+
+/* -------- content -------- */
+
+.email-wrapper .content {
+    margin: 0;
+    padding: 65px 0 40px;
+    max-width: 480px;
+}
+
+/* -------- content change-password -------- */
+
+.email-wrapper .change-password .content-title {
+    color: #333333;
+    font-size: 25px;
+    font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+}
+
+.email-wrapper .change-password .title-underline {
+    color: #333333;
+    font-size: 25px;
+    font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+    line-height: 30px;
+    -webkit-text-size-adjust: none;
+    display: inline-block;
+    border-bottom: 3px solid #f43501;
+}
+
+.email-wrapper .change-password .content-body {
+    padding-top: 27px;
+    color: #333333;
+    font-size: 16px;
+    font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+    line-height: 18px;
+}
+
+/* -------- footer -------- */
+
+.email-wrapper .footer {
+    margin: 0;
+    padding: 14px 0 0 0;
+    max-width: 480px;
+    border-top: 1px solid #979797;
+}
+
+.email-wrapper .footer-logo img {
+    display: block;
+}
+
+.email-wrapper .footer-logo .title-container {
+    padding-left: 15px;
+}
+
+.email-wrapper .footer-logo .title {
+    height: 18px;
+    color: #333333;
+    font-size: 16px;
+    font-family: HelveticaNeue-Bold, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.email-wrapper .footer-logo .subtitle {
+    height: 18px;
+    color: #333333;
+    font-size: 12px;
+    font-family: HelveticaNeue-Medium, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.email-wrapper .footer .download-app-title {
+    padding-top: 17px;
+    height: 18px;
+    color: #333333;
+    font-size: 12px;
+    font-family: HelveticaNeue-Medium, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.email-wrapper .footer .download-app {
+    padding-top: 6px;
+    height: 21px;
+}
+
+.email-wrapper .footer .download-app a {
+    color: #333333;
+    font: 10px HelveticaNeue-Light, Helvetica, Arial, sans-serif;
+    line-height: 30px;
+    -webkit-text-size-adjust:none;
+    display: inline-block;
+}
+
+.email-wrapper .footer .download-app a img {
+    display: inline-block;
+}
+
+.email-wrapper .footer .download-app a img.download-app-gp {
+    padding-left: 9px
+}
+
+.email-wrapper .footer .address {
+    padding-top: 25px;
+    color: #333333;
+    font-size: 12px;
+    font-family: HelveticaNeue-Light, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+.email-wrapper .footer .terms {
+    padding-top: 26px;
+}
+
+.email-wrapper .footer .terms a {
+    color: #333333;
+    font: 12px HelveticaNeue-Light, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 18px;
+    text-decoration: none;
+    -webkit-text-size-adjust: none;
+    display: inline-block;
+}
+
+.email-wrapper .footer .links {
+    padding: 28px 0 13px;
+}
+
+.email-wrapper .footer .links a {
+    color: #333333;
+    font: 12px HelveticaNeue-Light, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 18px;
+    text-decoration: none;
+    -webkit-text-size-adjust:none;
+    display: inline-block;
+}
+
+.email-wrapper .footer .bottom-line {
+    width: 100%;
+    height: 12px;
+    background: linear-gradient(-180deg, #f43400 0%, #f5515f 100%);
+    border-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
