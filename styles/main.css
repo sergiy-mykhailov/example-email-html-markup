@@ -85,20 +85,24 @@
 
 /* -------- account-creation -------- */
 
-.email-wrapper .account-creation .account-img img {
+.email-wrapper .account-creation .account-img img,
+.email-wrapper .forgot-password .lock-img img {
     display: block;
 }
 
-.email-wrapper .account-creation .welcome-block {
+.email-wrapper .account-creation .welcome-block,
+.email-wrapper .forgot-password .welcome-block {
     padding-top: 38px;
 }
 
-.email-wrapper .account-creation .welcome-block table {
+.email-wrapper .account-creation .welcome-block table,
+.email-wrapper .forgot-password .welcome-block table {
     border-radius: 0;
     box-shadow: 0 2px 7px 1px #d3d2d2;
 }
 
-.email-wrapper .account-creation .welcome-block .content-title span {
+.email-wrapper .account-creation .welcome-block .content-title span,
+.email-wrapper .forgot-password .welcome-block .content-title span {
     padding-top: 15px;
     width: 320px;
     color: #000000;
@@ -112,19 +116,22 @@
     display: block;
 }
 
-.email-wrapper .account-creation .welcome-block .content-body {
+.email-wrapper .account-creation .welcome-block .content-body,
+.email-wrapper .forgot-password .welcome-block .content-body {
     padding-top: 18px;
     color: #707070;
     font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
     font-size: 14px;
 }
 
-.email-wrapper .account-creation .welcome-block .content-footer {
+.email-wrapper .account-creation .welcome-block .content-footer,
+.email-wrapper .forgot-password .welcome-block .content-footer {
     padding-top: 18px;
     padding-bottom: 26px;
 }
 
-.email-wrapper .account-creation .welcome-block .content-footer a {
+.email-wrapper .account-creation .welcome-block .content-footer a,
+.email-wrapper .forgot-password .welcome-block .content-footer a {
     height: 40px;
     width: 140px;
     color: #ffffff;
@@ -140,6 +147,55 @@
     text-decoration: none;
     padding-top: 5px;
     box-sizing: border-box;
+}
+
+/* -------- forgot-password -------- */
+
+.email-wrapper .forgot-password .description-block {
+    padding-top: 38px;
+}
+
+.email-wrapper .forgot-password .pass-valid {
+    color: #717171;
+    font-size: 12px;
+    font-family: HelveticaNeue-Light, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+.email-wrapper .forgot-password .line {
+    padding-top: 30px;
+    border-bottom: 2px solid #979797;
+    border-radius: 0;
+}
+
+.email-wrapper .forgot-password .pass-trouble {
+    padding-top: 22px;
+    color: #333333;
+    font-size: 16px;
+    font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+    line-height: 24px;
+}
+
+.email-wrapper .forgot-password .pass-link {
+    padding-top: 18px;
+}
+.email-wrapper .forgot-password .pass-link a {
+    color: #445aff;
+    font-size: 16px;
+    font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+    line-height: 18px;
+    -webkit-text-size-adjust: none;
+    display: block;
+}
+
+.email-wrapper .forgot-password .pass-email {
+    padding-top: 37px;
+    color: #717171;
+    font-size: 12px;
+    font-family: HelveticaNeue-Light, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 18px;
 }
 
 /* -------- footer -------- */
