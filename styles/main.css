@@ -20,7 +20,7 @@
 }
 
 .email-wrapper .header .title-container {
-    padding:13px 0 0 27px;
+    padding-left: 27px;
 }
 
 .email-wrapper .header .title {
@@ -35,10 +35,6 @@
     color: #bbbbbb;
     font-size: 16px;
     font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
-}
-
-.email-wrapper .header-right {
-    padding-top: 21px;
 }
 
 .email-wrapper .header-right a {
@@ -76,6 +72,7 @@
     -webkit-text-size-adjust: none;
     display: inline-block;
     border-bottom: 3px solid #f43501;
+    border-radius: 0;
 }
 
 .email-wrapper .change-password .content-body {
@@ -84,6 +81,65 @@
     font-size: 16px;
     font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
     line-height: 18px;
+}
+
+/* -------- account-creation -------- */
+
+.email-wrapper .account-creation .account-img img {
+    display: block;
+}
+
+.email-wrapper .account-creation .welcome-block {
+    padding-top: 38px;
+}
+
+.email-wrapper .account-creation .welcome-block table {
+    border-radius: 0;
+    box-shadow: 0 2px 7px 1px #d3d2d2;
+}
+
+.email-wrapper .account-creation .welcome-block .content-title span {
+    padding-top: 15px;
+    width: 320px;
+    color: #000000;
+    font-size: 24px;
+    font-family: Helvetica-Bold, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    border-bottom: 2px solid #f43501;
+    border-radius: 0;
+    line-height: 30px;
+    -webkit-text-size-adjust:none;
+    display: block;
+}
+
+.email-wrapper .account-creation .welcome-block .content-body {
+    padding-top: 18px;
+    color: #707070;
+    font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.email-wrapper .account-creation .welcome-block .content-footer {
+    padding-top: 18px;
+    padding-bottom: 26px;
+}
+
+.email-wrapper .account-creation .welcome-block .content-footer a {
+    height: 40px;
+    width: 140px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Helvetica-Bold, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    background: #f32f2f;
+    border-radius: 0;
+    box-shadow: 0 2px 7px 0 #f8a79d;
+    line-height: 30px;
+    -webkit-text-size-adjust: none;
+    display: block;
+    text-decoration: none;
+    padding-top: 5px;
+    box-sizing: border-box;
 }
 
 /* -------- footer -------- */
