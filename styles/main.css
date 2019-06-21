@@ -58,13 +58,15 @@
 
 /* -------- content change-password -------- */
 
-.email-wrapper .change-password .content-title {
+.email-wrapper .change-password .content-title,
+.email-wrapper .notifications .content-title {
     color: #333333;
     font-size: 25px;
     font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
 }
 
-.email-wrapper .change-password .title-underline {
+.email-wrapper .change-password .title-underline,
+.email-wrapper .notifications .title-underline {
     color: #333333;
     font-size: 25px;
     font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
@@ -75,7 +77,8 @@
     border-radius: 0;
 }
 
-.email-wrapper .change-password .content-body {
+.email-wrapper .change-password .content-body,
+.email-wrapper .notifications .content-body {
     padding-top: 27px;
     color: #333333;
     font-size: 16px;
@@ -196,6 +199,68 @@
     font-family: HelveticaNeue-Light, Helvetica, Arial, sans-serif;
     font-weight: 300;
     line-height: 18px;
+}
+
+/* -------- notifications -------- */
+
+.email-wrapper .notifications .card-list {
+    padding-top: 16px;
+}
+
+.email-wrapper .notifications .card {
+    padding-top: 16px;
+    display: inline-block;
+    width: 100%;
+    max-width: 230px;
+}
+
+.email-wrapper .notifications .card table {
+    border-radius: 0;
+    box-shadow: 0 2px 4px 0 #e7e7e7;
+}
+
+.email-wrapper .notifications .card-title {
+    padding: 8px 8px 0 8px;
+    color: #717171;
+    font-size: 14px;
+    font-family: HelveticaNeue-Light, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+.email-wrapper .notifications .card-images {
+    padding-top: 10px;
+}
+
+.email-wrapper .notifications .card-images img {
+    display: inline-block;
+    position: relative;
+}
+
+.email-wrapper .notifications .card-images img.img-1 {
+    z-index: 3;
+}
+
+.email-wrapper .notifications .card-images img.img-2 {
+    z-index: 2;
+    left: -23px;
+}
+
+.email-wrapper .notifications .card-images img.img-3 {
+    z-index: 1;
+    left: -46px;
+}
+
+.email-wrapper .notifications .card-images span {
+    color: #909090;
+    font-size: 12px;
+    font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+    line-height: 18px;
+    -webkit-text-size-adjust: none;
+    display: inline-block;
+    position: relative;
+    left: -46px;
+    top: -20px;
 }
 
 /* -------- footer -------- */
